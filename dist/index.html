@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Anjay CSS framework</title>
+
+  <meta name="description" content="">
+  <meta name="theme-color" content="#f7c824">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+  <link rel="stylesheet" href="css/anjay.css">
+
+</head>
+<body>
+  <div class="header">
+    <h4 class="putih tengah">Anjay CSS Framework</h4>
+  </div>
+  <div class="sidebar">
+    <div class="tengah">
+      <a href="#"><img src="img/logocss.png"></a>
+    </div>
+    <ul>
+      <a href="#kolom"><li>Kolom</li></a>
+      <a href="#kolomdorong"><li>Kolom Dorong</li></a>
+      <a href="#heading"><li>Heading</li></a>
+      <a href="#pertaanteks"><li>Perataan Teks</li></a>
+      <a href="#gambar"><li>Gambar</li></a>
+      <a href="#tabeldasar"><li>Tabel Dasar</li></a>
+      <a href="#tabelzebra"><li>Tabel Zebra</li></a>
+      <a href="#tabelbergaris"><li>Tabel Bergaris</li></a>
+      <a href="#tabelfokus"><li>Tabel Fokus</li></a>
+      <a href="#tabelresponsif"><li>Tabel Responsif</li></a>
+      <a href="#formulir"><li>Formulir</li></a>
+      <a href="#formulirbaris"><li>Formulir Baris</li></a>
+      <a href="#warna"><li>Warna</li></a>
+      <a href="#tombol"><li>Tombol</li></a>
+      <a href="#header"><li>Header</li></a>
+      <a href="#footer"><li>Footer</li></a>
+    </ul>
+  </div>
+  <div class="content">
+      <div class="wadah-penuh padding">
+        <h3>Perkenalan</h3>
+        <img src="img/logoanjay.jpg" alt="" height="100px">
+        <p>Anjay CSS Framework adalah sebuah framework CSS untuk membangun sebuah web dengan menggunakan class bahasa Indonesia yang di harapkan dapat membantu mempermudah proses pembangunan sebuah web dan cocok digunakan untuk pemula yang ingin belajar CSS dengan menggunakan bahasa Indonesia.</p>
+        <p>Untuk contoh penggunaan klik di bawah ini</p>
+        <a href="/example.html" class="tmb-utama">Klik Disini</a>
+      </div>
+      <hr>
+      <div class="wadah-penuh bg-round">
+        <h3 id="kolom">Kolom</h3><br>
+        <div class="baris">
+          <div class="kolom-1 border">kolom-1</div>
+          <div class="kolom-2 border">kolom-2</div>
+          <div class="kolom-3 border">kolom-3</div>
+          <div class="kolom-4 border">kolom-4</div>
+          <div class="kolom-5 border">kolom-5</div>
+          <div class="kolom-6 border">kolom-6</div>
+          <div class="kolom-7 border">kolom-7</div>
+          <div class="kolom-8 border">kolom-8</div>
+          <div class="kolom-9 border">kolom-9</div>
+          <div class="kolom-10 border">kolom-10</div>
+          <div class="kolom-11 border">kolom-11</div>
+          <div class="kolom-12 border">kolom-12</div>
+        </div>
+        <pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;wadah&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+   <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;baris&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-1 border&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>kolom-1<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-2 border&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>kolom-2<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-3 border&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>kolom-3<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-4 border&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>kolom-4<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-5 border&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>kolom-5<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-6 border&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>kolom-6<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-7 border&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>kolom-7<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-8 border&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>kolom-8<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-9 border&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>kolom-9<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-10 border&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>kolom-10<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-11 border&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>kolom-11<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-12 border&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>kolom-12<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+   <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+</pre>
+      </div>
+      <hr>
+
+      <div class="wadah-penuh bg-round">
+        <h3 id="kolomdorong">Kolom Dorong</h3><br>
+        <div class="baris">
+          <div class="kolom-4 border">kolom-4</div>
+          <div class="kolom-2 kolom-dorong-2 border">kolom-2 kolom-dorong-2</div>
+          <div class="kolom-3 kolom-dorong-1 border">kolom-3 kolom-dorong-1</div>
+        </div>
+        <div class="baris">
+          <div class="kolom-4 kolom-dorong-4 border">kolom-4 kolom-dorong-4</div>
+        </div>
+        <div class="baris">
+          <div class="kolom-4 kolom-dorong-8 border">kolom-4 kolom-dorong-8</div>
+        </div>
+        
+         <pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;wadah&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+   <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;baris&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-4 border&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>kolom-4<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-2 kolom-dorong-2 border&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>kolom-2 kolom-dorong-2<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-3 kolom-dorong-1 border&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>kolom-3 kolom-dorong-1<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+   <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+   <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;baris&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-4 kolom-dorong-4 border&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>kolom-4 kolom-dorong-4<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+   <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+   <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;baris&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-4 kolom-dorong-8 border&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>kolom-4 kolom-dorong-8<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+   <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+</pre>
+      </div>
+      <hr>
+
+    <div class="wadah-penuh bg-round">
+      <h3 id="heading">Heading</h3><br>
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+      
+      <pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">&lt;h1&gt;</span>Heading 1<span style="color: #000080; font-weight: bold">&lt;/h1&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;h2&gt;</span>Heading 2<span style="color: #000080; font-weight: bold">&lt;/h2&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;h3&gt;</span>Heading 3<span style="color: #000080; font-weight: bold">&lt;/h3&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;h4&gt;</span>Heading 4<span style="color: #000080; font-weight: bold">&lt;/h4&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;h5&gt;</span>Heading 5<span style="color: #000080; font-weight: bold">&lt;/h5&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;h6&gt;</span>Heading 6<span style="color: #000080; font-weight: bold">&lt;/h6&gt;</span>
+</pre>
+    </div>
+      <hr>
+
+    <div class="wadah-penuh bg-round">
+      <h3 id="pertaanteks">Perataan Teks</h3><br>
+      <h4 class="kiri">Rata Kiri</h4>
+      <p class="kiri">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem inventore quaerat earum delectus laudantium, aliquid minima a voluptas sed, nisi deserunt voluptates! Magni id provident nihil impedit dolorem dignissimos incidunt eius laborum tempore est.
+      <h4 class="kanan">Rata Kanan</h4>
+      <p class="kanan">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus voluptas deleniti minima suscipit, libero, commodi dicta aperiam.</p>
+      <br>
+      <h4 class="tengah">Rata Tengah</h4>
+      <p class="tengah">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus voluptas deleniti minima suscipit, libero, commodi dicta aperiam, exercitationem id vel architecto odit omnis aspernatur magni voluptatibus!</p>
+      <br>
+      <h4 class="rata">Rata Kanan Kiri</h4>
+      <p class="rata">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus voluptas deleniti minima suscipit, libero, commodi dicta aperiam, exercitationem id vel architecto odit omnis aspernatur magni voluptatibus!.</p>
+      
+      <pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">&lt;h4</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kiri&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Rata Kiri<span style="color: #000080; font-weight: bold">&lt;/h4&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;p</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kiri&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem inventore quaerat earum delectus laudantium, aliquid minima a voluptas sed, nisi deserunt voluptates! Magni id provident nihil impedit dolorem dignissimos incidunt eius laborum tempore est.
+<span style="color: #000080; font-weight: bold">&lt;h4</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kanan&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Rata Kanan<span style="color: #000080; font-weight: bold">&lt;/h4&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;p</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kanan&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus voluptas deleniti minima suscipit, libero, commodi dicta aperiam.<span style="color: #000080; font-weight: bold">&lt;/p&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;h4</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;tengah&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Rata Tengah<span style="color: #000080; font-weight: bold">&lt;/h4&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;p</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;tengah&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus voluptas deleniti minima suscipit, libero, commodi dicta aperiam, exercitationem id vel architecto odit omnis aspernatur magni voluptatibus!<span style="color: #000080; font-weight: bold">&lt;/p&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;h4</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;rata&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Rata Kanan Kiri<span style="color: #000080; font-weight: bold">&lt;/h4&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;p</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;rata&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus voluptas deleniti minima suscipit, libero, commodi dicta aperiam, exercitationem id vel architecto odit omnis aspernatur magni voluptatibus!.<span style="color: #000080; font-weight: bold">&lt;/p&gt;</span>
+</pre>
+    </div>
+    <hr>
+
+    <div class="wadah-penuh bg-round">
+      <h3 id="gambar">Gambar</h3><br>
+      <h4 class="tengah">Gambar Responsif</h4>
+      <img src="https://dummyimage.com/600x400/0099ff/ffffff.png" class="gambar-responsif" alt="">
+      <div class="baris">
+        <div class="kolom-4 padding">
+          <h4 class="tengah">Gambar Bulat</h4><br>
+          <img src="https://dummyimage.com/300x300/0099ff/ffffff.png" class="gambar-responsif gambar-bulat" alt="">
+        </div>
+        <div class="kolom-4 padding">
+          <h4 class="tengah">Gambar tumpul</h4><br>
+          <img src="https://dummyimage.com/300x300/0099ff/ffffff.png" class="gambar-responsif gambar-tumpul" alt="">
+        </div>
+        <div class="kolom-4 padding">
+          <h4 class="tengah">Gambar Bingkai</h4><br>
+          <img src="https://dummyimage.com/300x300/0099ff/ffffff.png" class="gambar-responsif gambar-bingkai" alt="">
+        </div>
+      </div>
+      
+      <pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">&lt;img</span> <span style="color: #FF0000">src=</span><span style="color: #0000FF">&quot;https://dummyimage.com/600x400/0099ff/ffffff.png&quot;</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;gambar-responsif&quot;</span> <span style="color: #FF0000">alt=</span><span style="color: #0000FF">&quot;&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;baris&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+   <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-4 padding&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;img</span> <span style="color: #FF0000">src=</span><span style="color: #0000FF">&quot;https://dummyimage.com/300x300/0099ff/ffffff.png&quot;</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;gambar-responsif gambar-bulat&quot;</span> <span style="color: #FF0000">alt=</span><span style="color: #0000FF">&quot;&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+   <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+   <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-4 padding&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;img</span> <span style="color: #FF0000">src=</span><span style="color: #0000FF">&quot;https://dummyimage.com/300x300/0099ff/ffffff.png&quot;</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;gambar-responsif gambar-tumpul&quot;</span> <span style="color: #FF0000">alt=</span><span style="color: #0000FF">&quot;&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+   <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+   <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-4 padding&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;img</span> <span style="color: #FF0000">src=</span><span style="color: #0000FF">&quot;https://dummyimage.com/300x300/0099ff/ffffff.png&quot;</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;gambar-responsif gambar-bingkai&quot;</span> <span style="color: #FF0000">alt=</span><span style="color: #0000FF">&quot;&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+   <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+</pre>
+    </div>
+    <hr>
+
+    <div class="wadah-penuh bg-round">
+      <h3 id="tabeldasar">Tabel Dasar</h3><br>
+        <table>
+          <thead>
+            <tr>
+              <th>Nomor</th>
+              <th>Nama Depan</th>
+              <th>Nama Belakang</th>
+              <th>Alamat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Paijo</td>
+              <td>Sehat</td>
+              <td>Surabaya</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Junaidi</td>
+              <td>Jainudin</td>
+              <td>Wates</td>
+            </tr>
+          </tbody>
+        </table>
+    
+    <pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">&lt;table&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;thead&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Nomor<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Nama Depan<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Nama Belakang<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Alamat<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/thead&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;tbody&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>1<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Paijo<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Sehat<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Surabaya<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>2<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Junaidi<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Jainudin<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Wates<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/tbody&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;/table&gt;</span>
+</pre>
+    </div>
+
+    <hr>
+
+    <div class="wadah-penuh bg-round">
+      <h3 id="tabelzebra">Tabel Zebra</h3><br>
+        <table class="tabel-zebra">
+          <thead>
+            <tr>
+              <th>Nomor</th>
+              <th>Nama Depan</th>
+              <th>Nama Belakang</th>
+              <th>Alamat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Paijo</td>
+              <td>Sehat</td>
+              <td>Surabaya</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Junaidi</td>
+              <td>Jainudin</td>
+              <td>Wates</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Jubaidah</td>
+              <td>Rojak</td>
+              <td>Nagrek</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Jupri</td>
+              <td>Slalom</td>
+              <td>Lamongan</td>
+            </tr>
+          </tbody>
+        </table>
+
+      <pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">&lt;table</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;tabel-zebra&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;thead&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Nomor<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Nama Depan<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Nama Belakang<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Alamat<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/thead&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;tbody&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>1<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Paijo<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Sehat<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Surabaya<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>2<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Junaidi<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Jainudin<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Wates<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>3<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Jubaidah<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Rojak<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Nagrek<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>4<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Jupri<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Slalom<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Lamongan<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/tbody&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;/table&gt;</span>
+</pre>
+    </div>
+
+    <hr>
+
+    <div class="wadah-penuh bg-round">
+      <h3 id="tabelbergaris">Tabel Bergaris</h3><br>
+        <table class="tabel-bergaris">
+          <thead>
+            <tr>
+              <th>Nomor</th>
+              <th>Nama Depan</th>
+              <th>Nama Belakang</th>
+              <th>Alamat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Paijo</td>
+              <td>Sehat</td>
+              <td>Surabaya</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Junaidi</td>
+              <td>Jainudin</td>
+              <td>Wates</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Jubaidah</td>
+              <td>Rojak</td>
+              <td>Nagrek</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Jupri</td>
+              <td>Slalom</td>
+              <td>Lamongan</td>
+            </tr>
+          </tbody>
+        </table>
+
+     <pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">&lt;table</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;tabel-bergaris&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;thead&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Nomor<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Nama Depan<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Nama Belakang<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Alamat<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/thead&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;tbody&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>1<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Paijo<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Sehat<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Surabaya<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>2<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Junaidi<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Jainudin<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Wates<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>3<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Jubaidah<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Rojak<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Nagrek<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>4<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Jupri<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Slalom<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Lamongan<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/tbody&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;/table&gt;</span>
+</pre>
+    </div>
+    <hr>
+
+    <div class="wadah-penuh bg-round">
+      <h3 id="tabelfokus">Tabel Fokus</h3><br>
+        <table class="tabel-fokus">
+          <thead>
+            <tr>
+              <th>Nomor</th>
+              <th>Nama Depan</th>
+              <th>Nama Belakang</th>
+              <th>Alamat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Paijo</td>
+              <td>Sehat</td>
+              <td>Surabaya</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Junaidi</td>
+              <td>Jainudin</td>
+              <td>Wates</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Jubaidah</td>
+              <td>Rojak</td>
+              <td>Nagrek</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Jupri</td>
+              <td>Slalom</td>
+              <td>Lamongan</td>
+            </tr>
+          </tbody>
+        </table>
+
+     <pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">&lt;table</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;tabel-fokus&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;thead&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Nomor<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Nama Depan<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Nama Belakang<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Alamat<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/thead&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;tbody&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>1<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Paijo<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Sehat<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Surabaya<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>2<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Junaidi<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Jainudin<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Wates<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>3<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Jubaidah<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Rojak<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Nagrek<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>4<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Jupri<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Slalom<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Lamongan<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/tbody&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;/table&gt;</span>
+</pre>
+    </div>
+    <hr>
+
+    <div class="wadah-penuh bg-round">
+      <h3 id="tabelresponsif">Tabel Responsive</h3><br>
+        <div class="tabel-responsif">
+          <table>
+            <thead>
+              <tr>
+                <th>Nomor</th>
+                <th>Nama Depan</th>
+                <th>Nama Belakang</th>
+                <th>Alamat</th>
+                <th>Email</th>
+                <th>Nomor Handphone</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Paijo</td>
+                <td>Sehat</td>
+                <td>Surabaya</td>
+                <td>paijosangatsehat@gmail.com</td>
+                <td>08156586685</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Junaidi</td>
+                <td>Jainudin</td>
+                <td>Wates</td>
+                <td>junaidibukanjainudin@gmail.com</td>
+                <td>0816579658965</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Jubaidah</td>
+                <td>Rojak</td>
+                <td>Nagrek</td>
+                <td>jubaidah@gmail.com</td>
+                <td>081236589658</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Jupri</td>
+                <td>Slalom</td>
+                <td>Lamongan</td>
+                <td>jupridrifter@gmail.com</td>
+                <td>081366985984</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+     <pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;tabel-responsif&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;table&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;thead&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Nomor<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Nama Depan<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Nama Belakang<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Alamat<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Email<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;th&gt;</span>Nomor Handphone<span style="color: #000080; font-weight: bold">&lt;/th&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/thead&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;tbody&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>1<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Paijo<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Sehat<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Surabaya<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>paijosangatsehat@gmail.com<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>08156586685<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>2<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Junaidi<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Jainudin<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Wates<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>junaidibukanjainudin@gmail.com<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>0816579658965<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>3<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Jubaidah<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Rojak<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Nagrek<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>jubaidah@gmail.com<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>081236589658<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;tr&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>4<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Jupri<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Slalom<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>Lamongan<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>jupridrifter@gmail.com<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;td&gt;</span>081366985984<span style="color: #000080; font-weight: bold">&lt;/td&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;/tr&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/tbody&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/table&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+</pre>
+    </div>
+
+    <hr>
+
+    <div class="wadah-penuh bg-round">
+      <h3 id="formulir">Formulir</h3><br>
+        <form>
+          <div class="grup">
+            <label for="input">Input</label>
+            <input type="text" id="input" class="kendali-form" placeholder="Input">
+          </div>
+          <div class="grup">
+            <label for="">Select</label>
+            <select name="" id="" class="kendali-form">
+              <option value="">-- Pilih --</option>
+              <option value="">1</option>
+              <option value="">2</option>
+            </select>
+          </div>
+          <div class="grup">
+            <label for="textarea">Textarea</label>
+            <textarea name="" id="textarea" rows="3" class="kendali-form" placeholder="Textarea"></textarea>
+          </div>
+          <div class="grup">
+            <label for="file">File input</label>
+            <input type="file" id="file" class="kendali-form">
+          </div>
+          <div class="grup">
+            <label for="checkbox">Check Box</label>
+              <input type="checkbox" id="checkbox" class="kendali-form">Checkbox
+            </label>
+          </div>
+          <div class="grup">
+            <label>Radio Button</label>
+              <input type="radio" id="radio" class="kendali-form">Radio button
+            </label>
+          </div>
+        </form>
+        <hr>
+
+      <pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">&lt;form&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;grup&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;label</span> <span style="color: #FF0000">for=</span><span style="color: #0000FF">&quot;input&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Input<span style="color: #000080; font-weight: bold">&lt;/label&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;input</span> <span style="color: #FF0000">type=</span><span style="color: #0000FF">&quot;text&quot;</span> <span style="color: #FF0000">id=</span><span style="color: #0000FF">&quot;input&quot;</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kendali-form&quot;</span> <span style="color: #FF0000">placeholder=</span><span style="color: #0000FF">&quot;Input&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;grup&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;label</span> <span style="color: #FF0000">for=</span><span style="color: #0000FF">&quot;&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Select<span style="color: #000080; font-weight: bold">&lt;/label&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;select</span> <span style="color: #FF0000">name=</span><span style="color: #0000FF">&quot;&quot;</span> <span style="color: #FF0000">id=</span><span style="color: #0000FF">&quot;&quot;</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kendali-form&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;option</span> <span style="color: #FF0000">value=</span><span style="color: #0000FF">&quot;&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>-- Pilih --<span style="color: #000080; font-weight: bold">&lt;/option&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;option</span> <span style="color: #FF0000">value=</span><span style="color: #0000FF">&quot;&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>1<span style="color: #000080; font-weight: bold">&lt;/option&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;option</span> <span style="color: #FF0000">value=</span><span style="color: #0000FF">&quot;&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>2<span style="color: #000080; font-weight: bold">&lt;/option&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/select&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;grup&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;label</span> <span style="color: #FF0000">for=</span><span style="color: #0000FF">&quot;textarea&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Textarea<span style="color: #000080; font-weight: bold">&lt;/label&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;textarea</span> <span style="color: #FF0000">name=</span><span style="color: #0000FF">&quot;&quot;</span> <span style="color: #FF0000">id=</span><span style="color: #0000FF">&quot;textarea&quot;</span> <span style="color: #FF0000">rows=</span><span style="color: #0000FF">&quot;3&quot;</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kendali-form&quot;</span> <span style="color: #FF0000">placeholder=</span><span style="color: #0000FF">&quot;Textarea&quot;</span><span style="color: #000080; font-weight: bold">&gt;&lt;/textarea&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;grup&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;label</span> <span style="color: #FF0000">for=</span><span style="color: #0000FF">&quot;file&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>File input<span style="color: #000080; font-weight: bold">&lt;/label&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;input</span> <span style="color: #FF0000">type=</span><span style="color: #0000FF">&quot;file&quot;</span> <span style="color: #FF0000">id=</span><span style="color: #0000FF">&quot;file&quot;</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kendali-form&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;grup&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;label</span> <span style="color: #FF0000">for=</span><span style="color: #0000FF">&quot;checkbox&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Check Box<span style="color: #000080; font-weight: bold">&lt;/label&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;input</span> <span style="color: #FF0000">type=</span><span style="color: #0000FF">&quot;checkbox&quot;</span> <span style="color: #FF0000">id=</span><span style="color: #0000FF">&quot;checkbox&quot;</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kendali-form&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Checkbox
+    <span style="color: #000080; font-weight: bold">&lt;/label&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;grup&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;label&gt;</span>Radio Button<span style="color: #000080; font-weight: bold">&lt;/label&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;input</span> <span style="color: #FF0000">type=</span><span style="color: #0000FF">&quot;radio&quot;</span> <span style="color: #FF0000">id=</span><span style="color: #0000FF">&quot;radio&quot;</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kendali-form&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Radio button
+    <span style="color: #000080; font-weight: bold">&lt;/label&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;/form&gt;</span>
+</pre>
+    </div>
+
+    <hr>
+
+    <div class="wadah-penuh bg-round">
+      <h3 id="formulirbaris">Formulir baris</h3><br>
+        <form class="baris">
+          <div class="grup">
+            <label for="input">Input</label>
+            <input type="text" id="input" class="kendali-form" placeholder="Input">
+          </div>
+          <div class="grup">
+            <label for="">Select</label>
+            <select name="" id="" class="kendali-form">
+              <option value="">-- Pilih --</option>
+              <option value="">1</option>
+              <option value="">2</option>
+            </select>
+          </div>
+          <br>
+          <input type="email" placeholder="E-mail">
+          <input type="text" placeholder="Username">
+          <input type="password" placeholder="Password">
+        </form>
+        <hr>
+
+      <pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">&lt;form</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;baris&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;grup&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;label</span> <span style="color: #FF0000">for=</span><span style="color: #0000FF">&quot;input&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Input<span style="color: #000080; font-weight: bold">&lt;/label&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;input</span> <span style="color: #FF0000">type=</span><span style="color: #0000FF">&quot;text&quot;</span> <span style="color: #FF0000">id=</span><span style="color: #0000FF">&quot;input&quot;</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kendali-form&quot;</span> <span style="color: #FF0000">placeholder=</span><span style="color: #0000FF">&quot;Input&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;grup&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;label</span> <span style="color: #FF0000">for=</span><span style="color: #0000FF">&quot;&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Select<span style="color: #000080; font-weight: bold">&lt;/label&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;select</span> <span style="color: #FF0000">name=</span><span style="color: #0000FF">&quot;&quot;</span> <span style="color: #FF0000">id=</span><span style="color: #0000FF">&quot;&quot;</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kendali-form&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;option</span> <span style="color: #FF0000">value=</span><span style="color: #0000FF">&quot;&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>-- Pilih --<span style="color: #000080; font-weight: bold">&lt;/option&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;option</span> <span style="color: #FF0000">value=</span><span style="color: #0000FF">&quot;&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>1<span style="color: #000080; font-weight: bold">&lt;/option&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;option</span> <span style="color: #FF0000">value=</span><span style="color: #0000FF">&quot;&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>2<span style="color: #000080; font-weight: bold">&lt;/option&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/select&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;br&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;input</span> <span style="color: #FF0000">type=</span><span style="color: #0000FF">&quot;email&quot;</span> <span style="color: #FF0000">placeholder=</span><span style="color: #0000FF">&quot;E-mail&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;input</span> <span style="color: #FF0000">type=</span><span style="color: #0000FF">&quot;text&quot;</span> <span style="color: #FF0000">placeholder=</span><span style="color: #0000FF">&quot;Username&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;input</span> <span style="color: #FF0000">type=</span><span style="color: #0000FF">&quot;password&quot;</span> <span style="color: #FF0000">placeholder=</span><span style="color: #0000FF">&quot;Password&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;/form&gt;</span>
+</pre>
+    </div>
+
+    <hr>
+
+    <div class="wadah-penuh bg-round">
+      <h3 id="warna">Warna</h3>
+      <div class="tabel-responsif">
+        <table class="tengah">
+          <thead>
+            <tr style="border:0;">
+              <th width="20%" class="merah">Merah</th>
+              <th width="20%" class="merahjambu">Merah Jambu</th>
+              <th width="20%" class="ungu">Ungu</th>
+              <th width="20%" class="nila">Nila</th>
+              <th width="20%" class="biru">Biru</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="putih bg-merah">Background Merah</td>
+              <td class="putih bg-merahjambu">Background Merah Jambu</td>
+              <td class="putih bg-ungu">Background Ungu</td>
+              <td class="putih bg-nila">Background Nila</td>
+              <td class="putih bg-biru">Background Biru</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="tengah">
+          <thead>
+            <tr style="border:0;">
+              <th width="20%" class="tosca">Tosca</th>
+              <th width="20%" class="hijau">Hijau</th>
+              <th width="20%" class="kuning">Kuning</th>
+              <th width="20%" class="oranye">Oranye</th>
+              <th width="20%" class="cokelat">Cokelat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="putih bg-tosca">Background Tosca</td>
+              <td class="putih bg-hijau">Background Hijau</td>
+              <td class="putih bg-kuning">Background Kuning</td>
+              <td class="putih bg-oranye">Background Oranye</td>
+              <td class="putih bg-cokelat">Background Cokelat</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="tengah">
+          <thead>
+            <tr style="border:0;">
+              <th width="20%" class="abuabu">Abu Abu</th>
+              <th width="20%" class="hitam">Hitam</th>
+              <th width="20%" class="bg-hitam putih">putih</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="putih bg-abuabu">Background Abu Abu</td>
+              <td class="putih bg-hitam">Background Hitam</td>
+              <td class="hitam bg-putih">Background Putih</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    <pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;merah&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Merah<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;merahjambu&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Merah Jambu<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;ungu&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Ungu<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;nila&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Nila<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;biru&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Biru<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;tosca&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Tosca<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;hijau&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Hijau<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kuning&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Kuning<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;oranye&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Oranye<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;cokelat&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Cokelat<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;abuabu&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Abu Abu<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;hitam&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Hitam<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;putih&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>putih<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+</pre>
+<hr>
+<pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;bg-merah&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Background Merah<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;bg-merahjambu&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Background Merah Jambu<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;bg-ungu&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Background Ungu<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;bg-nila&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Background Nila<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;bg-biru&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Background Biru<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;bg-tosca&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Background Tosca<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;bg-hijau&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Background Hijau<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;bg-kuning&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Background Kuning<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;bg-oranye&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Background Oranye<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;bg-cokelat&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Background Cokelat<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;bg-abuabu&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Background Abu Abu<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;bg-hitam&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Background Hitam<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;bg-putih&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Background putih<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+</pre>
+    </div>
+
+    <hr>
+
+    <div class="wadah-penuh bg-round">
+      <h3 id="tombol">Tombol</h3>
+      <br>
+      <h5>Tipe Tombol</h5>
+      <button class="tmb-standar">Standar</button>
+      <button class="tmb-utama">Utama</button>
+      <button class="tmb-sukses">Sukses</button>
+      <button class="tmb-peringatan">Peringatan</button>
+      <button class="tmb-bahaya">Bahaya</button>
+      <br><br>
+      <h5>Tombol Kecil</h5>
+      <button class="tmb-standar tmb-kecil">Tombol Kecil</button>
+      <button class="tmb-utama tmb-kecil">Tombol Kecil</button>
+      <br><br>
+      <h5>Tombol Sedang</h5>
+      <button class="tmb-standar tmb-sedang">Tombol Sedang</button>
+      <button class="tmb-utama tmb-sedang">Tombol Sedang</button>
+      <br><br>
+      <h5>Tombol Besar</h5>
+      <button class="tmb-standar tmb-besar">Tombol Besar</button>
+      <button class="tmb-utama tmb-besar">Tombol Besar</button>
+      <hr>
+
+     <pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">&lt;button</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;tmb-standar&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Standar<span style="color: #000080; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;button</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;tmb-utama&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Utama<span style="color: #000080; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;button</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;tmb-sukses&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Sukses<span style="color: #000080; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;button</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;tmb-peringatan&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Peringatan<span style="color: #000080; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;button</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;tmb-bahaya&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Bahaya<span style="color: #000080; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;button</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;tmb-standar tmb-kecil&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Tombol Kecil<span style="color: #000080; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;button</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;tmb-utama tmb-kecil&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Tombol Kecil<span style="color: #000080; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;button</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;tmb-standar tmb-sedang&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Tombol Sedang<span style="color: #000080; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;button</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;tmb-utama tmb-sedang&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Tombol Sedang<span style="color: #000080; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;button</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;tmb-standar tmb-besar&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Tombol Besar<span style="color: #000080; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;button</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;tmb-utama tmb-besar&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Tombol Besar<span style="color: #000080; font-weight: bold">&lt;/button&gt;</span>
+</pre>
+    </div>
+
+    <hr>
+
+    <div class="wadah-penuh bg-round">
+      <h3 id="header">Header</h3><br>
+      <div class="header-content">
+        <div class="baris">
+          <div class="kolom-2 logo">
+            <img src="http://lofrev.net/wp-content/photos/2017/03/bower_logo_1.png" alt="">
+          </div>
+          <div class="kolom-10 menu">
+            <ul>
+              <a href="#"><li>Home</li></a>
+              <a href="#"><li>About</li></a>
+              <a href="#"><li>Downloads</li></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">&lt;header&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;baris&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-2 logo&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;img</span> <span style="color: #FF0000">src=</span><span style="color: #0000FF">&quot;http://lofrev.net/wp-content/photos/2017/03/bower_logo_1.png&quot;</span> <span style="color: #FF0000">alt=</span><span style="color: #0000FF">&quot;&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-10 menu&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;ul&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;a</span> <span style="color: #FF0000">href=</span><span style="color: #0000FF">&quot;&quot;</span><span style="color: #000080; font-weight: bold">&gt;&lt;li&gt;</span>Home<span style="color: #000080; font-weight: bold">&lt;/li&gt;&lt;/a&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;a</span> <span style="color: #FF0000">href=</span><span style="color: #0000FF">&quot;&quot;</span><span style="color: #000080; font-weight: bold">&gt;&lt;li&gt;</span>About<span style="color: #000080; font-weight: bold">&lt;/li&gt;&lt;/a&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;a</span> <span style="color: #FF0000">href=</span><span style="color: #0000FF">&quot;&quot;</span><span style="color: #000080; font-weight: bold">&gt;&lt;li&gt;</span>Downloads<span style="color: #000080; font-weight: bold">&lt;/li&gt;&lt;/a&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;/ul&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;/header&gt;</span>
+</pre>
+    </div>
+    <hr>
+
+    <div class="wadah-penuh bg-round">
+      <h3 id="footer">Footer</h3>
+      <div class="footer-content">
+        <div class="wadah-penuh padding2">
+          <div class="baris">
+            <div class="kolom-6">
+              <h4 class="putih">Isi Footer</h4>
+              <p class="putih">Kamu bisa edit ini dengan apa saja yang kamu suka!</p>
+            </div>
+            <div class="kolom-6 tengah">
+              <h4 class="putih">Links</h4>
+              <ul class="putih">
+                <li>Link 1</li>
+                <li>Link 2</li>
+                <li>Link 3</li>
+                <li>Link 4</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="keaslian">
+          <div class="wadah-penuh padding2">
+            <div class="baris">
+              <div class="kolom-6">Pertunjukan Hari Esok</div>
+              <div class="kolom-6 kanan">Transisi &copy; 2017</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <pre style="margin: 0; line-height: 125%"><span style="color: #000080; font-weight: bold">&lt;footer&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;wadah&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;baris&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-6&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;h4</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;putih&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Isi Footer<span style="color: #000080; font-weight: bold">&lt;/h4&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;p</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;putih&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Kamu bisa edit ini dengan apa saja yang kamu suka!<span style="color: #000080; font-weight: bold">&lt;/p&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-6 tengah&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;h4</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;putih&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Links<span style="color: #000080; font-weight: bold">&lt;/h4&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;ul</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;putih&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+          <span style="color: #000080; font-weight: bold">&lt;li&gt;</span>Link 1<span style="color: #000080; font-weight: bold">&lt;/li&gt;</span>
+          <span style="color: #000080; font-weight: bold">&lt;li&gt;</span>Link 2<span style="color: #000080; font-weight: bold">&lt;/li&gt;</span>
+          <span style="color: #000080; font-weight: bold">&lt;li&gt;</span>Link 3<span style="color: #000080; font-weight: bold">&lt;/li&gt;</span>
+          <span style="color: #000080; font-weight: bold">&lt;li&gt;</span>Link 4<span style="color: #000080; font-weight: bold">&lt;/li&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;/ul&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;keaslian&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;wadah&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;baris&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-6&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Pertunjukan Hari Esok<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+        <span style="color: #000080; font-weight: bold">&lt;div</span> <span style="color: #FF0000">class=</span><span style="color: #0000FF">&quot;kolom-6 kanan&quot;</span><span style="color: #000080; font-weight: bold">&gt;</span>Transisi &amp;copy; 2017<span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+      <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+    <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #000080; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #000080; font-weight: bold">&lt;/footer&gt;</span>
+</pre>
+
+    </div>
+
+  <footer>
+    <div class="keaslian">
+      <div class="kolom-12 tengah">CSS Framework &copy; 2017</div>
+    </div>
+  </footer>
+
+  </div>
+
+<script src="js/vendor/jquery-1.12.4.js"></script>
+<script src="js/default.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y ID -->
+<script>
+  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+  ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+// ==========================================================================
+// AnjayCSS – Tabel
+// ==========================================================================
+
+// Tabel Standar
+table{
+	margin-bottom:20px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	text-align: left;
+	font-size:14px;
+	thead{
+		tr{
+			border-bottom:3px solid #ddd;
+			th{
+				color:#000;
+			}
+		}
+	}
+	tbody{
+		tr{
+			border-bottom:1px solid #ddd;
+		}
+	}
+	thead,
+  	tbody,
+  	tfoot {
+    	td,
+    	th {
+      	color: #585858;
+      	padding: 10px;
+    	}
+    }
+}
+caption {
+  font-size: inherit;
+  line-height: normal;
+  font-weight: 700;
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+// Tabel Zebra
+.tabel-zebra{
+	tbody{
+		tr:nth-child(odd){
+	  		background:#f9f9f9;
+		}
+	}
+}
+
+// Tabel Bergaris
+.tabel-bergaris{
+	th,td{
+		border:1px solid #ddd;
+	}
+}
+
+// Tabel Fokus 
+.tabel-fokus{
+	tbody{
+		tr{
+			&:hover{
+				background:#f9f9f9;
+			}
+		}
+	}
+}
+
+//Tabel Responsif
+.tabel-responsif{
+	overflow-x:auto;
+}

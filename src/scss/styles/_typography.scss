@@ -1,0 +1,133 @@
+h1{
+	font-size: $h1-font-size;
+	margin-bottom: .2em;
+	margin-top: 0;
+	line-height: $h1-line-height;
+	font-weight: $h1-font-weight;
+}
+h2{
+	font-size: $h2-font-size;
+	margin-bottom: .2em;
+	margin-top: 0;
+	line-height: $h2-line-height;
+	font-weight: $h2-font-weight;
+}
+h3{
+	font-size: $h3-font-size;
+	margin-bottom: .2em;
+	margin-top: 0;
+	line-height: $h3-line-height;
+	font-weight: $h3-font-weight;
+}
+h4{
+	font-size: $h4-font-size;
+	margin-bottom: .2em;
+	margin-top: 0;
+	line-height: $h4-line-height;
+	font-weight: $h4-font-weight;
+}
+h5{
+	font-size: $h5-font-size;
+	margin-bottom: .2em;
+	margin-top: 0;
+	line-height: $h5-line-height;
+	font-weight: $h5-font-weight;
+}
+h6{
+	font-size: $h6-font-size;
+	margin-bottom: .2em;
+	margin-top: 0;
+	line-height: $h6-line-height;
+	font-weight: $h6-font-weight;
+}
+
+.kiri{
+	text-align:left;
+}
+.kanan{
+	text-align:right;
+}
+.tengah{
+	text-align:center;
+}
+.rata{
+	text-align:justify;
+}
+
+// Body
+body {
+  font-family: $font-family;
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $font-color;
+  font-weight: $font-weight;
+  background: $background-color;
+}
+
+// Code
+code, kbd, pre, samp {
+  font-size:$code-font-size;
+  line-height:$code-line-height;
+  word-wrap: break-word;
+  font-family: $code-font-family;
+  color: $code-color;
+  background-color: $code-background-color;
+  font-weight: normal;
+  padding: 0;
+  white-space: pre-wrap;
+}
+
+// Pre
+pre {
+  padding: 10px;
+  overflow: auto;
+  border: 1px solid $code-border-color;
+  background: #f9f9f9 ;
+  border-left:14px solid #ddd;
+}
+
+// Paragraph
+p { margin: 0 0 10px 0; }
+
+// Links
+a {
+  color: $link-color;
+  text-decoration: underline;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  &:active, &:hover {
+    color: $link-hover-color;
+    outline-width: 0;
+    text-decoration: none;
+  }
+}
+
+// Bold and Strong
+b, strong, .strong { font-weight: 700; }
+
+// Italics
+em, .em { font-style: italic; }
+
+
+// Mark
+mark, .mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+// Del
+del, .del { text-decoration: line-through; }
+
+// Images
+figure { margin: 1em 40px; }
+
+// Horizontal Rules
+hr, .hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 1px;
+  background: #eee;
+  border: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

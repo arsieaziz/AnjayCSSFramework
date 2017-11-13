@@ -1,0 +1,77 @@
+// ==========================================================================
+// AnjayCSS – Formulir
+// ==========================================================================
+
+form{
+	[type="text"],
+	[type="email"], 
+	[type="password"],
+	[type="tel"],
+	[type="number"],
+	[type="date"]{
+		padding:10px;
+		border-radius:5px;
+		margin-bottom: 10px;
+		width: 100%;
+		border:1px solid #ddd;
+		outline: none;
+		&:focus{
+			border:1px solid #3f89ff;
+		}
+	}
+	select{
+		border-radius:5px;
+		margin-bottom: 10px;
+		width: 100%;
+		border:1px solid #ddd;
+		padding:10px;
+		background: #fff;
+		outline: none;
+		&:focus{
+			border:1px solid #3f89ff;
+		}
+	}
+	textarea{
+		border-radius:5px;
+		margin-bottom: 10px;
+		width: 100%;
+		border:1px solid #ddd;
+		resize:none;
+		padding:10px;
+		outline: none;
+		&:focus{
+			border:1px solid #3f89ff;
+		}
+	}
+	[type="file"]{
+		border-radius:5px;
+		margin-bottom: 10px;
+		border:1px solid #ddd;
+		outline: none;
+		&:focus{
+			border:1px solid #3f89ff;
+		}
+	}
+	[type="checkbox"],[type="radio"]{
+		margin-right: 10px;
+		outline: none;
+	}
+	.grup{
+		margin:10px 0 10px 0;
+		label{font-weight:bold;display:block}
+		.kendali-form{margin-top:5px;}
+	}
+}
+
+
+.baris{
+	display: inline-block;
+	input,select,textarea{
+		width: auto;
+	}
+	.grup{
+		width: auto;
+		display: inline-block;
+		label{display:inline-block};
+	}
+}
