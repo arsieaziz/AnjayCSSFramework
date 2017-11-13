@@ -1,0 +1,24 @@
+{
+  "name": "getanjay",
+  "description": "## CSS Framework Ringan Berbahasa Indonesia.",
+  "main": "index.html",
+  "authors": [
+    "AnjayTeam"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "CSS",
+    "Framework",
+    "Ringan",
+    "Berbahasa",
+    "Indonesia"
+  ],
+  "homepage": "https://github.com/arsieaziz/AnjayCSSFramework",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,17 +1,19 @@
-# [Base Starter](http://getbase.org)
+## Get Anjay - CSS Framework Ringan Berbahasa Indonesia.
 
-## Base Starter - A Rock Solid, Starter template that includes the base CSS framework and other goodies.
+## Instalasi
+Caranya cukup mudah, anda hanya perlu untuk mengkloning repositori di bawah ini:
 
-## Installation
-Getting started is easy, simply clone this repo:
+    git clone https://github.com/arsieaziz/AnjayCSSFramework.git web-aku && cd web-aku && rm -rf .git
 
-    git clone https://github.com/matthewhartman/base-starter.git your-website && cd your-website && rm -rf .git
-
-Once you have cloned the repo, run the following:
+Setelah anda mengkloning repositori, jalankan perintah di bawah ini :
 
     npm install && npm start
 
-Once you have your project running, head over to the [docs](http://getbase.org/docs/) to learn more.
+selanjutnya anda masukkan perintah "gulp" di terminal dan masuk ke halaman dokumentasi untuk mempelajari tentang Anjay CSS Framework
+
+Referensi file CSS langsung ke web anda:
+
+    <link rel="stylesheet" href="node_modules/getanjay/css/anjay.css">
 
 * * *
 
@@ -19,5 +21,3 @@ Once you have your project running, head over to the [docs](http://getbase.org/d
 [MIT Open Source](https://opensource.org/licenses/MIT)
 
 * * *
-
-Base starter was built by Matthew Hartman [(@matthewhartmans)](http://twitter.com/matthewhartmans) - a passionate web developer based in Melbourne, Australia.

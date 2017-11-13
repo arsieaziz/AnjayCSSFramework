@@ -6,7 +6,7 @@
     "dist": "gulp build"
   },
   "authors": [
-    "Matthew Hartman <matthewhartmanau@gmail.com>"
+    "AnjayTeam <arsieaziz@gmail.com>"
   ],
   "ignore": [
     "**/.*",
@@ -35,5 +35,26 @@
     "> 1%",
     "last 2 versions",
     "Firefox ESR"
-  ]
+  ],
+  "name": "getanjay",
+  "description": "## CSS Framework Ringan Berbahasa Indonesia.",
+  "version": "1.0.1",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsieaziz/AnjayCSSFramework.git"
+  },
+  "keywords": [
+    "CSS",
+    "Framework",
+    "Ringan",
+    "Berbahasa",
+    "Indonesia"
+  ],
+  "author": "AnjayTeam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arsieaziz/AnjayCSSFramework/issues"
+  },
+  "homepage": "https://github.com/arsieaziz/AnjayCSSFramework#readme"
 }
