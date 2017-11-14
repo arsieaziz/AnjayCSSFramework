@@ -34,8 +34,10 @@ button:-moz-focusring,
 }
 
 button[disabled],
+a[disabled],
 html input[disabled] {
   cursor: not-allowed;
+  opacity: 0.65;
 }
 
 // Tombol Kustom
@@ -114,3 +116,5 @@ html input[disabled] {
 .tmb-besar{
     font-size: 20px;
 }
+
+// Nonaktif Tombol

@@ -532,8 +532,10 @@ button:-moz-focusring,
   outline: 1px dotted ButtonText; }
 
 button[disabled],
+a[disabled],
 html input[disabled] {
-  cursor: not-allowed; }
+  cursor: not-allowed;
+  opacity: 0.65; }
 
 .tmb-standar {
   background: #fafafa;
@@ -646,7 +648,6 @@ html input[disabled] {
     .content .header-content .logo img {
       height: 50px; }
     .content .header-content .menu {
-      padding-top: 5px;
       color: #fff; }
       .content .header-content .menu ul {
         float: right;

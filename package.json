@@ -38,7 +38,7 @@
   ],
   "name": "getanjay",
   "description": "## CSS Framework Ringan Berbahasa Indonesia.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.html",
   "repository": {
     "type": "git",
@@ -52,7 +52,7 @@
     "Indonesia"
   ],
   "author": "AnjayTeam",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/arsieaziz/AnjayCSSFramework/issues"
   },
