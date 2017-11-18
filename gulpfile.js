@@ -78,6 +78,7 @@ gulp.task('inlinesource', function () {
 // Gulp Watch Task
 gulp.task('watch', ['browserSync'], function () {
   gulp.watch('./src/scss/**/*', ['sass']);
+  gulp.watch('./src/js/**/*.js',['jsmin']);
   gulp.watch('./src/**/*.html').on('change', browserSync.reload);
 });
 

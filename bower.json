@@ -1,7 +1,7 @@
 {
   "name": "getanjay",
   "description": "## CSS Framework Ringan Berbahasa Indonesia.",
-  "main": "index.html",
+  "main": "dist/css/anjay.css",
   "authors": [
     "AnjayTeam"
   ],

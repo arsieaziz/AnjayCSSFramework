@@ -10,6 +10,12 @@
 	padding:15px 0 0 20px;
 	position: fixed;
 	top:0;
+	.mobile{
+		display: none;
+	}
+	.menu-mobile{
+		display: none;
+	}
 }
 
 // Sidebar
@@ -137,5 +143,27 @@ ul{
 	margin:0;
 	li{
 		list-style-type: none;
+	}
+}
+
+@media (max-width:$kecil){
+	.sidebar{
+		display: none;
+	}
+	.content{
+		margin:0;
+	}
+	.header{
+		padding:10px 0 0 0;
+		.mobile{
+			display: block;
+			position: fixed;
+			top:4px;
+			width:10%;
+			padding:10px;
+			img{
+				filter: invert(100%);
+			}
+		}
 	}
 }
