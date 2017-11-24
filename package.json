@@ -38,7 +38,7 @@
   ],
   "name": "getanjay",
   "description": "## CSS Framework Ringan Berbahasa Indonesia.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/css/anjay.css",
   "repository": {
     "type": "git",

@@ -368,6 +368,9 @@ caption {
 .tabel-zebra tbody tr:nth-child(odd) {
   background: #f9f9f9; }
 
+.tabel-zebra-biru tbody tr:nth-child(odd) {
+  background: #b3e5fc; }
+
 .tabel-bergaris th, .tabel-bergaris td {
   border: 1px solid #ddd; }
 
@@ -431,6 +434,17 @@ form [type="checkbox"], form [type="radio"] {
   margin-right: 10px;
   outline: none; }
 
+.baris-form {
+  width: 100%;
+  display: inline-block; }
+  .baris-form input, .baris-form select, .baris-form textarea {
+    width: auto; }
+  .baris-form .grup {
+    width: auto;
+    display: inline-block; }
+    .baris-form .grup label {
+      display: inline-block; }
+
 .grup {
   margin: 10px 0 10px 0; }
   .grup label {
@@ -438,16 +452,6 @@ form [type="checkbox"], form [type="radio"] {
     display: block; }
   .grup .kendali-form {
     margin-top: 5px; }
-
-.baris {
-  display: inline-block; }
-  .baris input, .baris select, .baris textarea {
-    width: auto; }
-  .baris .grup {
-    width: auto;
-    display: inline-block; }
-    .baris .grup label {
-      display: inline-block; }
 
 .merah {
   color: #f70202; }

@@ -4,8 +4,11 @@ $(document).ready(function() {
   	$(".sidebar").toggle();
   	$(".menu").toggle();
   });
-  $("a").click(function(){
-  	$(".sidebar").hide();
-  });
+
+$("a").click(function(){
+  	if (screen.width <= 576){
+  		$(".sidebar").hide();
+  	}
+});
   
 }); // end document ready

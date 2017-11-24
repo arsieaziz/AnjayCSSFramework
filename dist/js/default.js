@@ -1,1 +1,1 @@
-$(document).ready(function(){$("#icon-mobile").click(function(){$(".sidebar").toggle(),$(".menu").toggle()}),$("a").click(function(){$(".sidebar").hide()})});
+$(document).ready(function(){$("#icon-mobile").click(function(){$(".sidebar").toggle(),$(".menu").toggle()}),$("a").click(function(){screen.width<=576&&$(".sidebar").hide()})});
